@@ -1,0 +1,11 @@
+/*Default styles for small screens and anything not caught by media*/
+body{
+    background-color: darkorchid;
+}
+/*Styled for screens 600px video and larger */
+@media screen and (width > 600px) {
+    
+    body{
+        background-color: gray;
+    }
+}
